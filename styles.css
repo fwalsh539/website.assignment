@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body.special-page {
+    background-color: rgb(192, 18, 151);
+}
+
+header {
+    background-color: rgb(139, 0, 116);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgb(72, 153, 133);
+    border-radius: 5px;
+}
+
+a#headerlink {
+    background-color: rgb(186, 14, 143);
+    color: rgb(200, 16, 123);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
